@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capcausal"
+version = "1.0.0"
+requires-python = ">=3.13"
+dependencies = [
+  "numpy==2.5.4",
+  "pandas==2.3.3",
+  "pyarrow==26.0.0",
+  "geopandas==1.2.0",
+  "shapely==2.2.0",
+  "duckdb==1.5.6",
+  "pyproj==3.8.0",
+  "pyogrio==0.13.0",
+  "rasterio==1.5.2",
+  "affine==3.0.1",
+  "pystac-client==0.9.1",
+  "planetary-computer==1.0.0",
+  "openeo==0.53.0",
+  "requests==2.34.2",
+  "python-dotenv==1.2.4",
+  "pyyaml==6.0.3",
+  "scipy==1.18.1",
+  "scikit-learn==1.9.1",
+  "pyfixest==0.60.0",
+  "rdrobust==2.1.1",
+  "rddensity==3.0",
+  "csdid==0.4.2"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

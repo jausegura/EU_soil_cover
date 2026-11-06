@@ -1,1 +1,3 @@
-
+seed: 42
+outcomes:
+  bare_soil: {ndvi_max: 0.30, ndti_max: 0.1, majority: 0.5, min_pix: 8, min_valid_frac: 0.5}
